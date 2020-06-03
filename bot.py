@@ -10,10 +10,8 @@ import json
 from threading import Thread
 from selection import get_symbols
 from sms import SMS
-from config import EMAIL, PASSWORD
+from config import KEY, SECRET, EMAIL, PASSWORD
 
-KEY = 'PKH1EA7TE8Y9QKU7UBI8'
-SECRET = 'BPlKISHmtetcWckPFNGPUWKEPAc5ptLEK/Dxaf0v'
 
 date = lambda: str(datetime.now())[:10]
 timestamp = lambda: str(datetime.now())[11:19]
